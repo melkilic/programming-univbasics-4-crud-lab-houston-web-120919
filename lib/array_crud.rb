@@ -19,13 +19,12 @@ p array
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["lil' bub", "grumpy cat", "Maru"]
-  maru_cat = array.pop
 
 end
 
 def remove_element_from_start_of_array(array)
-
+array.shift[0]
+p array
 end
 
 def retrieve_element_from_index(array, index_number)
