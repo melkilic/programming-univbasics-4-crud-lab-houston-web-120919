@@ -19,14 +19,11 @@ p array
 end
 
 def remove_element_from_end_of_array(array)
-  array.pop
-  p array
+array.
 end
 
 def remove_element_from_start_of_array(array)
-array = ["lil' bub", "grumpy cat", "Maru"]
-  lil_bub = array.shift
-
+  array.shift
   p array
 end
 
