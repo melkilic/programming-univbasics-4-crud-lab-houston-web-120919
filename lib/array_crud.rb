@@ -9,6 +9,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+array = ["lil' bub", "grumpy cat", "Maru"]
 array << "element"
 p array
 end
